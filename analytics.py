@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
 
+def newFeature(msg):
+   print("Ajay we are starting a new Starup jFork Technologies Services "+msg)
+
 if __name__ == '__main__':
    dict_A={
        'Name':['Ajay',np.nan,'Kiran','Vijay','Sharada'],
