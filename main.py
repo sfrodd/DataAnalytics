@@ -14,4 +14,5 @@ if __name__ == '__main__':
    df.fillna(values,inplace=True)
    df.replace(to_replace=np.nan,value=20,inplace=True)
    df.interpolate(method='linear',limit_direction='forward',inplace=True)
+   print("Hello World")
    print(df)
