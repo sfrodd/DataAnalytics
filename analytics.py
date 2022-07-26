@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
 
+def haveFun(msg):
+   print(msg+" this is a fun function..")
+
 if __name__ == '__main__':
    dict_A={
        'Name':['Ajay',np.nan,'Kiran','Vijay','Sharada'],
