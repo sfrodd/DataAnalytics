@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+
 if __name__ == '__main__':
    dict_A={
        'Name':['Ajay',np.nan,'Kiran','Vijay','Sharada'],
